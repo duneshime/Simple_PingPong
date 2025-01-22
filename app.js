@@ -48,6 +48,8 @@ p2.addEventListener('click', () => {
 
 reset.addEventListener('click', () =>
 {
+    n1=0;
+    n2=0;
     p1_score.innerHTML = "0";
     p2_score.innerHTML = "0";
 })
