@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ping-pong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid grey;
+  margin: 10vh 30vw;
+}
+.ping-pong #title {
+  padding: 0 5px;
+  font-size: small;
+  font-weight: 400;
+  margin: 2px;
+}
+.ping-pong img {
+  width: 100%;
+}
+
+.container-score {
+  border-top: 2px solid grey;
+  border-bottom: 1px solid grey;
+}
+.container-score h3 {
+  display: inline;
+  text-align: left;
+  padding: 0 3px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.container-score p {
+  margin: 4px;
+  margin-bottom: 10px;
+  margin-right: 50%;
+  font-size: 0.7rem;
+  background-color: aqua;
+  padding: 3px;
+  border-radius: 3px;
+}
+.container-score label {
+  margin: 4px;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=main.css.map */
